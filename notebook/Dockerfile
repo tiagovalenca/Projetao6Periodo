@@ -17,14 +17,9 @@ RUN mkdir -p /usr/share/man/man1 \
     && mkdir -p /usr/share/man/man7 \
     && apt-get install -y postgresql-client
 
-# Install Poetry
-RUN pip3 install poetry
+COPY requirements.txt .
 
-COPY pyproject.toml /notebook/
+# Install requirements
+RUN pip install -r requirements.txt
 
 WORKDIR /notebook
-
-# Install Dependencies
-RUN poetry config virtualenvs.create false \
-    && export PYTHON_KEYRING_BACKEND=keyring.backends.null.Keyring \
-    && poetry install --verbose -vvv
