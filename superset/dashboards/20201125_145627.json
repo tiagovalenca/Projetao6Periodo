@@ -1,0 +1,497 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": null,
+                "dashboard_title": "Dashboard Projet\u00e3o",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"filter_scopes\": {\"82\": {\"diagnostico\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"cif_codigo\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"cif_qualificador\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"82\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\", \"remote_id\": 7, \"import_time\": 1605108440}",
+                "position_json": "{\"CHART-6PRB1mTj-S\":{\"children\":[],\"id\":\"CHART-6PRB1mTj-S\",\"meta\":{\"chartId\":83,\"height\":51,\"sliceName\":\"Sankey Sexo e Tipo Sangu\\u00edneo\",\"width\":5},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\",\"ROW-2w4S8lJvh\"],\"type\":\"CHART\"},\"CHART-BaErLmnfV8\":{\"children\":[],\"id\":\"CHART-BaErLmnfV8\",\"meta\":{\"chartId\":84,\"height\":52,\"sliceName\":\"Histograma Idade Por Sexo\",\"width\":4},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\",\"ROW-2w4S8lJvh\"],\"type\":\"CHART\"},\"CHART-j_Z_Gz9Pym\":{\"children\":[],\"id\":\"CHART-j_Z_Gz9Pym\",\"meta\":{\"chartId\":85,\"height\":54,\"sliceName\":\"Sexo dos Pacientes\",\"width\":4},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\",\"ROW-H-FL4G97f\"],\"type\":\"CHART\"},\"CHART-oc8HurQ3yb\":{\"children\":[],\"id\":\"CHART-oc8HurQ3yb\",\"meta\":{\"chartId\":82,\"height\":49,\"sliceName\":\"Filtro Diagnostico\",\"width\":3},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\",\"ROW-2w4S8lJvh\"],\"type\":\"CHART\"},\"CHART-pJ5bmLLNHr\":{\"children\":[],\"id\":\"CHART-pJ5bmLLNHr\",\"meta\":{\"chartId\":87,\"height\":53,\"sliceName\":\"Diagnost\\u00edcos CIF x Tempo\",\"width\":12},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-sWsV33wyC\",\"ROW--l6kk3UcNI\"],\"type\":\"CHART\"},\"CHART-vqKX5MQLtJ\":{\"children\":[],\"id\":\"CHART-vqKX5MQLtJ\",\"meta\":{\"chartId\":88,\"height\":54,\"sliceName\":\"Pacientes por Localiza\\u00e7\\u00e3o\",\"width\":12},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-sWsV33wyC\",\"ROW-8Ga2Rfklf\"],\"type\":\"CHART\"},\"CHART-ypcxHIylA9\":{\"children\":[],\"id\":\"CHART-ypcxHIylA9\",\"meta\":{\"chartId\":86,\"height\":54,\"sliceName\":\"Sunburst Sexo e Tipo Sangu\\u00edneo\",\"width\":8},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\",\"ROW-H-FL4G97f\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-ydiYdn4fRU\":{\"children\":[],\"id\":\"DIVIDER-ydiYdn4fRU\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Dashboard Projet\\u00e3o\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"TABS-xYYpg7NJSe\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW--l6kk3UcNI\":{\"children\":[\"CHART-pJ5bmLLNHr\"],\"id\":\"ROW--l6kk3UcNI\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-sWsV33wyC\"],\"type\":\"ROW\"},\"ROW-2w4S8lJvh\":{\"children\":[\"CHART-oc8HurQ3yb\",\"CHART-6PRB1mTj-S\",\"CHART-BaErLmnfV8\"],\"id\":\"ROW-2w4S8lJvh\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\"],\"type\":\"ROW\"},\"ROW-8Ga2Rfklf\":{\"children\":[\"CHART-vqKX5MQLtJ\"],\"id\":\"ROW-8Ga2Rfklf\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-sWsV33wyC\"],\"type\":\"ROW\"},\"ROW-H-FL4G97f\":{\"children\":[\"CHART-j_Z_Gz9Pym\",\"CHART-ypcxHIylA9\"],\"id\":\"ROW-H-FL4G97f\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\",\"TAB-03Zm7So0qy\"],\"type\":\"ROW\"},\"TAB-03Zm7So0qy\":{\"children\":[\"ROW-2w4S8lJvh\",\"DIVIDER-ydiYdn4fRU\",\"ROW-H-FL4G97f\"],\"id\":\"TAB-03Zm7So0qy\",\"meta\":{\"text\":\"Dados Gerais Do Paciente\"},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\"],\"type\":\"TAB\"},\"TAB-sWsV33wyC\":{\"children\":[\"ROW--l6kk3UcNI\",\"ROW-8Ga2Rfklf\"],\"id\":\"TAB-sWsV33wyC\",\"meta\":{\"text\":\"An\\u00e1lises Aprofundadas\"},\"parents\":[\"ROOT_ID\",\"TABS-xYYpg7NJSe\"],\"type\":\"TAB\"},\"TABS-xYYpg7NJSe\":{\"children\":[\"TAB-03Zm7So0qy\",\"TAB-sWsV33wyC\"],\"id\":\"TABS-xYYpg7NJSe\",\"meta\":{},\"parents\":[\"ROOT_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 86,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"presetColors\", \"datasource\": \"13__table\", \"groupby\": [\"sexo\", \"tipo sanguineo\"], \"label_colors\": {}, \"metric\": \"count\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\", \"secondary_metric\": \"metrics\"}, \"row_limit\": 10000, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 86, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\", \"import_time\": 1605108440}",
+                            "slice_name": "Sunburst Sexo e Tipo Sangu\u00edneo",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 85,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"13__table\", \"donut\": false, \"groupby\": [\"sexo\"], \"label_colors\": {}, \"labels_outside\": true, \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"pie_label_type\": \"key_percent\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": 10000, \"show_labels\": true, \"show_legend\": true, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 85, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\", \"import_time\": 1605108440}",
+                            "slice_name": "Sexo dos Pacientes",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 83,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"presetColors\", \"datasource\": \"13__table\", \"groupby\": [\"tipo sanguineo\", \"sexo\"], \"label_colors\": {}, \"metric\": \"count\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": 10000, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sankey\", \"remote_id\": 83, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\", \"import_time\": 1605108440}",
+                            "slice_name": "Sankey Sexo e Tipo Sangu\u00edneo",
+                            "viz_type": "sankey"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 82,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"13__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"diagnostico\", \"key\": \"dy5rI8wOO\", \"label\": \"Diagon\\u00f3stico CID\", \"metric\": null, \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"cif_codigo\", \"key\": \"Ggi6V7E3J\", \"label\": \"C\\u00f3digo CIF\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"cif_qualificador\", \"key\": \"3ox_VDHg-\", \"label\": \"Qualificador CIF\", \"multiple\": true, \"searchAllOptions\": false}], \"granularity_sqla\": \"data_doenca\", \"instant_filtering\": true, \"queryFields\": {}, \"slice_id\": 82, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 82, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\"}",
+                            "slice_name": "Filtro Diagnostico",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 84,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": [\"idade\"], \"color_scheme\": \"bnbColors\", \"datasource\": \"13__table\", \"groupby\": [\"sexo\"], \"label_colors\": {}, \"link_length\": \"10\", \"queryFields\": {\"groupby\": \"groupby\"}, \"row_limit\": 10000, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"histogram\", \"remote_id\": 84, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\", \"import_time\": 1605108440}",
+                            "slice_name": "Histograma Idade Por Sexo",
+                            "viz_type": "histogram"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 87,
+                            "params": "{\"adhoc_filters\": [], \"column_collection\": [{\"bounds\": [null, null], \"colType\": \"spark\", \"comparisonType\": \"\", \"d3format\": \"\", \"dateFormat\": \"\", \"height\": \"\", \"key\": \"Q0uzn0htZ\", \"label\": \"Time Series Columns\", \"showYAxis\": true, \"timeLag\": 0, \"timeRatio\": \"\", \"tooltip\": \"\", \"width\": \"1000\", \"yAxisBounds\": [null, null]}], \"datasource\": \"13__table\", \"granularity_sqla\": \"data_doenca\", \"groupby\": [\"cif_codigo\"], \"metrics\": [{\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"idade\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 437, \"is_dttm\": false, \"optionName\": \"_col_idade\", \"python_date_format\": null, \"type\": \"BIGINT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(idade)\", \"optionName\": \"metric_tff7l9oxr1_chx04tzglms\", \"sqlExpression\": null}], \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"slice_id\": 87, \"time_grain_sqla\": \"P1M\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"time_table\", \"remote_id\": 87, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\"}",
+                            "slice_name": "Diagnost\u00edcos CIF x Tempo",
+                            "viz_type": "time_table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "public.paciente",
+                            "datasource_type": "table",
+                            "id": 88,
+                            "params": "{\"adhoc_filters\": [], \"autozoom\": true, \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"color_scheme\": \"googleCategory10c\", \"datasource\": \"13__table\", \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"data_doenca\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": \"SMART_NUMBER\", \"legend_position\": \"tr\", \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"max_radius\": 500, \"min_radius\": 2, \"multiplier\": 20, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"index\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 434, \"is_dttm\": false, \"optionName\": \"_col_index\", \"python_date_format\": null, \"type\": \"BIGINT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(index)\", \"optionName\": \"metric_yjvpzv80j6l_mfqzgill1pf\", \"sqlExpression\": null}}, \"point_unit\": \"square_m\", \"queryFields\": {\"dimension\": \"groupby\", \"js_columns\": \"groupby\"}, \"row_limit\": null, \"spatial\": {\"latCol\": \"bairro_lat\", \"lonCol\": \"bairro_lon\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": 0, \"height\": 497, \"latitude\": -8.0683796336336, \"longitude\": -34.891023488509276, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0, \"position\": [0, 0, 0], \"width\": 860, \"zoom\": 11.783110110349824}, \"viz_type\": \"deck_scatter\", \"remote_id\": 88, \"datasource_name\": \"paciente\", \"schema\": \"public\", \"database_name\": \"examples\"}",
+                            "slice_name": "Pacientes por Localiza\u00e7\u00e3o",
+                            "viz_type": "deck_scatter"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "index",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 434,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "nome",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 435,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "sexo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 436,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "idade",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 437,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "peso",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 438,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "altura",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 439,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "tipo sanguineo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 440,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "column_name": "diagnostico",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 441,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "column_name": "data_doenca",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 442,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "DATE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "column_name": "bairro",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 443,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "column_name": "bairro_lat",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 444,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "column_name": "bairro_lon",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-24T14:37:02"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 445,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-25T12:59:52"
+                            },
+                            "column_name": "cif_codigo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-25T12:59:52"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 446,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-25T12:59:52"
+                            },
+                            "column_name": "cif_qualificador",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-25T12:59:52"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 447,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-25T12:59:52"
+                            },
+                            "column_name": "cif_descricao",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-25T12:59:52"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 448,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 13,
+                            "type": "TEXT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "data_doenca",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-11-11T15:27:20"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 21,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 13,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 13, \"database_name\": \"examples\", \"import_time\": 1605108440}",
+                "schema": "public",
+                "sql": null,
+                "table_name": "paciente",
+                "template_params": null
+            }
+        }
+    ]
+}
